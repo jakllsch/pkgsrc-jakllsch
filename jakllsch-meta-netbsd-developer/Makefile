@@ -8,8 +8,8 @@ COMMENT=	personal metapackage - netbsd developer
 META_PACKAGE=	yes
 LICENSE=	public-domain
 
-DEPENDS+=	netbsd-doc:../../meta-pkgs/netbsd-doc
-DEPENDS+=	netbsd-doc-print:../../meta-pkgs/netbsd-doc-print
-DEPENDS+=	netbsd-www:../../meta-pkgs/netbsd-www
+DEPENDS+=	netbsd-doc-[0-9]*:../../meta-pkgs/netbsd-doc
+DEPENDS+=	netbsd-doc-print-[0-9]*:../../meta-pkgs/netbsd-doc-print
+DEPENDS+=	netbsd-www-[0-9]*:../../meta-pkgs/netbsd-www
 
 .include "../../mk/bsd.pkg.mk"

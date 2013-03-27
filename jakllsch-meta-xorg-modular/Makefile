@@ -8,10 +8,10 @@ COMMENT=	personal metapackage - modular xorg
 META_PACKAGE=	yes
 LICENSE=	public-domain
 
-DEPENDS+=	modular-xorg-protos:../../meta-pkgs/modular-xorg-protos
-DEPENDS+=	modular-xorg-libs:../../meta-pkgs/modular-xorg-libs
-DEPENDS+=	modular-xorg-drivers:../../meta-pkgs/modular-xorg-drivers
-DEPENDS+=	modular-xorg-apps:../../meta-pkgs/modular-xorg-apps
-DEPENDS+=	modular-xorg-fonts:../../meta-pkgs/modular-xorg-fonts
+DEPENDS+=	modular-xorg-protos-[0-9]*:../../meta-pkgs/modular-xorg-protos
+DEPENDS+=	modular-xorg-libs-[0-9]*:../../meta-pkgs/modular-xorg-libs
+DEPENDS+=	modular-xorg-drivers-[0-9]*:../../meta-pkgs/modular-xorg-drivers
+DEPENDS+=	modular-xorg-apps-[0-9]*:../../meta-pkgs/modular-xorg-apps
+DEPENDS+=	modular-xorg-fonts-[0-9]*:../../meta-pkgs/modular-xorg-fonts
 
 .include "../../mk/bsd.pkg.mk"

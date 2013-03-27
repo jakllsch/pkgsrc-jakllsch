@@ -10,19 +10,19 @@ LICENSE=	public-domain
 
 .include "../../mk/bsd.prefs.mk"
 .if ${X11_TYPE} == "modular"
-DEPENDS+=	jakllsch-meta-xorg-modular:../../jakllsch/jakllsch-meta-xorg-modular
+DEPENDS+=	jakllsch-meta-xorg-modular-[0-9]*:../../jakllsch/jakllsch-meta-xorg-modular
 .endif
 
 .if ${X11_TYPE} == "modular"
-DEPENDS+=	xterm:../../x11/xterm
+DEPENDS+=	xterm-[0-9]*:../../x11/xterm
 .endif
-DEPENDS+=	rxvt-unicode:../../x11/rxvt-unicode
-DEPENDS+=	openbox:../../wm/openbox
-DEPENDS+=	gio-fam:../../sysutils/gio-fam
-DEPENDS+=	jakllsch-meta-fonts:../../jakllsch/jakllsch-meta-fonts
-DEPENDS+=	xcalib:../../x11/xcalib
-DEPENDS+=	xicc:../../x11/xicc
-DEPENDS+=	hsetroot:../../x11/hsetroot
-DEPENDS+=	xcompmgr:../../x11/xcompmgr
+DEPENDS+=	rxvt-unicode-[0-9]*:../../x11/rxvt-unicode
+DEPENDS+=	openbox-[0-9]*:../../wm/openbox
+DEPENDS+=	gio-fam-[0-9]*:../../sysutils/gio-fam
+DEPENDS+=	jakllsch-meta-fonts-[0-9]*:../../jakllsch/jakllsch-meta-fonts
+DEPENDS+=	xcalib-[0-9]*:../../x11/xcalib
+DEPENDS+=	xicc-[0-9]*:../../x11/xicc
+DEPENDS+=	hsetroot-[0-9]*:../../x11/hsetroot
+DEPENDS+=	xcompmgr-[0-9]*:../../x11/xcompmgr
 
 .include "../../mk/bsd.pkg.mk"

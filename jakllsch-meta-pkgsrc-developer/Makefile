@@ -8,7 +8,7 @@ COMMENT=	personal metapackage - pkgsrc developer
 META_PACKAGE=	yes
 LICENSE=	public-domain
 
-DEPENDS+=	pkg_developer:../../meta-pkgs/pkg_developer
-DEPENDS+=	pkgsrc-guide-tools:../../meta-pkgs/pkgsrc-guide-tools
+DEPENDS+=	pkg_developer-[0-9]*:../../meta-pkgs/pkg_developer
+DEPENDS+=	pkgsrc-guide-tools-[0-9]*:../../meta-pkgs/pkgsrc-guide-tools
 
 .include "../../mk/bsd.pkg.mk"
