@@ -9,15 +9,15 @@ META_PACKAGE=	yes
 LICENSE=	public-domain
 
 
-DEPENDS+=	jakllsch-meta-misc:../jakllsch-meta-misc
-DEPENDS+=	jakllsch-meta-gui-base:../jakllsch-meta-gui-base
-DEPENDS+=	jakllsch-meta-fonts:../jakllsch-meta-fonts
-DEPENDS+=	jakllsch-meta-gui:../jakllsch-meta-gui
-DEPENDS+=	jakllsch-meta-netbsd-developer:../jakllsch-meta-netbsd-developer
-DEPENDS+=	jakllsch-meta-pkgsrc-developer:../jakllsch-meta-pkgsrc-developer
+DEPENDS+=	jakllsch-meta-misc:../../jakllsch/jakllsch-meta-misc
+DEPENDS+=	jakllsch-meta-gui-base:../../jakllsch/jakllsch-meta-gui-base
+DEPENDS+=	jakllsch-meta-fonts:../../jakllsch/jakllsch-meta-fonts
+DEPENDS+=	jakllsch-meta-gui:../../jakllsch/jakllsch-meta-gui
+DEPENDS+=	jakllsch-meta-netbsd-developer:../../jakllsch/jakllsch-meta-netbsd-developer
+DEPENDS+=	jakllsch-meta-pkgsrc-developer:../../jakllsch/jakllsch-meta-pkgsrc-developer
 .include "../../mk/bsd.prefs.mk"
 .if ${X11_TYPE} == "modular"
-DEPENDS+=	jakllsch-meta-xorg-modular:../jakllsch-meta-xorg-modular
+DEPENDS+=	jakllsch-meta-xorg-modular:../../jakllsch/jakllsch-meta-xorg-modular
 .endif
 
 .include "../../mk/bsd.pkg.mk"

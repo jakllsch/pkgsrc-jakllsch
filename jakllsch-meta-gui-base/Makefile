@@ -10,7 +10,7 @@ LICENSE=	public-domain
 
 .include "../../mk/bsd.prefs.mk"
 .if ${X11_TYPE} == "modular"
-DEPENDS+=	jakllsch-meta-xorg-modular:../jakllsch-meta-xorg-modular
+DEPENDS+=	jakllsch-meta-xorg-modular:../../jakllsch/jakllsch-meta-xorg-modular
 .endif
 
 .if ${X11_TYPE} == "modular"
