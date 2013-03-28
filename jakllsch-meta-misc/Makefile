@@ -95,7 +95,7 @@ DEPENDS+=	simh-[0-9]*:../../emulators/simh
 
 DEPENDS+=	BitTornado-[0-9]*:../../net/bittornado
 
-DEPENDS+=	ghostscript-[0-9]*:../../print/ghostscript
+DEPENDS+=	ghostscript-gpl-[0-9]*:../../print/ghostscript-gpl
 DEPENDS+=	djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
 
 DEPENDS+=	mencoder-[0-9]*:../../multimedia/mencoder
