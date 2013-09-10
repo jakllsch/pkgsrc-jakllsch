@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-gui-base-0.0.0.2012.02.02.0
+DISTNAME=	jakllsch-meta-gui-base-0.0.0.2013.03.28.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -24,5 +24,9 @@ DEPENDS+=	xcalib-[0-9]*:../../x11/xcalib
 DEPENDS+=	xicc-[0-9]*:../../x11/xicc
 DEPENDS+=	hsetroot-[0-9]*:../../x11/hsetroot
 DEPENDS+=	xcompmgr-[0-9]*:../../x11/xcompmgr
+DEPNEDS+=	dwm-[0-9]*:../../wm/dwm
+DEPENDS+=	dmenu-[0-9]*:../../x11/dmenu
+DEPENDS+=	xautolock-[0-9]*:../../x11/xautolock
+DEPENDS+=	slock-[0-9]*:../../x11/slock
 
 .include "../../mk/bsd.pkg.mk"
