@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-misc-0.0.0.2013.03.27.0
+DISTNAME=	jakllsch-meta-misc-0.0.0.2013.09.11.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -14,7 +14,7 @@ DEPENDS+=	mksh-[0-9]*:../../shells/mksh
 DEPENDS+=	netcat6-[0-9]*:../../net/netcat6
 DEPENDS+=	rsync-[0-9]*:../../net/rsync
 DEPENDS+=	rdiff-backup-[0-9]*:../../sysutils/rdiff-backup
-DEPENDS+=	aspell-english-[0-9]*:../../textproc/aspell-english
+DEPENDS+=	aspell-en-[0-9]*:../../textproc/aspell-en
 DEPENDS+=	hunspell-[0-9]*:../../textproc/hunspell
 DEPENDS+=	hunspell-en_US-[0-9]*:../../textproc/hunspell-en_US
 DEPENDS+=	nickle-[0-9]*:../../math/nickle
