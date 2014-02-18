@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-gui-0.0.0.2013.09.10.0
+DISTNAME=	jakllsch-meta-gui-0.0.0.2014.02.18.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -16,7 +16,7 @@ DEPENDS+=	sunclock-[0-9]*:../../time/sunclock
 DEPENDS+=	glclock-[0-9]*:../../time/glclock
 
 DEPENDS+=	pavucontrol-[0-9]*:../../audio/pavucontrol
-DEPENDS+=	firefox17-[0-9]*:../../www/firefox17
+DEPENDS+=	firefox24-[0-9]*:../../www/firefox24
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	geeqie-[0-9]*:../../graphics/geeqie
 
