@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-misc-0.0.0.2013.09.11.0
+DISTNAME=	jakllsch-meta-misc-0.0.0.2014.01.23.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -9,6 +9,7 @@ META_PACKAGE=	yes
 LICENSE=	public-domain
 
 .include "../../lang/python/pyversion.mk"
+.include "../../lang/lua/luaversion.mk"
 
 DEPENDS+=	mksh-[0-9]*:../../shells/mksh
 DEPENDS+=	netcat6-[0-9]*:../../net/netcat6
@@ -24,9 +25,9 @@ DEPENDS+=	flashrom-[0-9]*:../../sysutils/flashrom
 DEPENDS+=	nvramtool-[0-9]*:../../sysutils/nvramtool
 DEPENDS+=	pkg_alternatives-[0-9]*:../../pkgtools/pkg_alternatives
 DEPENDS+=	pkgdepgraph-[0-9]*:../../pkgtools/pkgdepgraph
-DEPENDS+=	vorbis-tools-[0-9]*:../../audio/vorbis-tools
 DEPENDS+=	libao-sun-[0-9]*:../../audio/libao-sun
 DEPENDS+=	libao-oss-[0-9]*:../../audio/libao-oss
+DEPENDS+=	vorbis-tools-[0-9]*:../../audio/vorbis-tools
 DEPENDS+=	mpc-[0-9]*:../../audio/mpc
 DEPENDS+=	ncmpc-[0-9]*:../../audio/ncmpc
 DEPENDS+=	cowsay-[0-9]*:../../misc/cowsay
@@ -68,11 +69,12 @@ DEPENDS+=	robotfindskitten-[0-9]*:../../games/robotfindskitten
 DEPENDS+=	amaze-[0-9]*:../../games/amaze
 
 DEPENDS+=	subversion-base-[0-9]*:../../devel/subversion-base
-DEPENDS+=	scmgit-base-[0-9]*:../../devel/scmgit-base
+DEPENDS+=	git-base-[0-9]*:../../devel/git-base
+DEPENDS+=	git-docs-[0-9]*:../../devel/git-docs
 DEPENDS+=	libxslt-[0-9]*:../../textproc/libxslt
 DEPENDS+=	tidy-[0-9]*:../../www/tidy
 DEPENDS+=	ncftp3-[0-9]*:../../net/ncftp3
-DEPENDS+=	lua-[0-9]*:../../lang/lua
+DEPENDS+=	${LUA_PKGPREFIX}-[0-9]*:../../lang/${LUA_PKGPREFIX}
 
 #DEPENDS+=	python27-[0-9]*:../../lang/python27
 DEPENDS+=	${PYPKGPREFIX}-readline-[0-9]*:../../devel/py-readline
