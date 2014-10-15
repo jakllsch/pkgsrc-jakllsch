@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-fonts-0.0.0.2013.02.02.0
+DISTNAME=	jakllsch-meta-fonts-0.0.0.2014.10.10.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -8,8 +8,8 @@ COMMENT=	personal metapackage - fonts
 META_PACKAGE=	yes
 LICENSE=	public-domain
 
-DEPENDS+=	EB-Garamond-[0-9]*:../../fonts/EB-Garamond
-DEPENDS+=	Symbola-ttf-[0-9]*:../../fonts/Symbola-ttf
+DEPENDS+=	EBGaramond-[0-9]*:../../fonts/EB-Garamond
+DEPENDS+=	symbola-ttf-[0-9]*:../../fonts/symbola-ttf
 DEPENDS+=	croscorefonts-[0-9]*:../../fonts/croscorefonts
 DEPENDS+=	dejavu-ttf-[0-9]*:../../fonts/dejavu-ttf
 DEPENDS+=	droid-ttf-[0-9]*:../../fonts/droid-ttf
