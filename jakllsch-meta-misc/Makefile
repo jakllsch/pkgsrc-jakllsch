@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-misc-0.0.0.2014.01.23.0
+DISTNAME=	jakllsch-meta-misc-0.0.0.2014.10.15.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -103,7 +103,9 @@ DEPENDS+=	ghostscript-gpl-[0-9]*:../../print/ghostscript-gpl
 DEPENDS+=	djvulibre-tools-[0-9]*:../../graphics/djvulibre-tools
 
 DEPENDS+=	mencoder-[0-9]*:../../multimedia/mencoder
-DEPENDS+=	ffmpeg-[0-9]*:../../multimedia/ffmpeg
+DEPENDS+=	ffmpeg010-[0-9]*:../../multimedia/ffmpeg010
+DEPENDS+=	ffmpeg1-[0-9]*:../../multimedia/ffmpeg1
+DEPENDS+=	ffmpeg2-[0-9]*:../../multimedia/ffmpeg2
 
 DEPENDS+=	gpsd-[0-9]*:../../geography/gpsd
 DEPENDS+=	vim-[0-9]*:../../editors/vim
