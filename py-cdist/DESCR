@@ -1,0 +1,4 @@
+cdist is a usable configuration management system. It adheres to
+the KISS principle and is being used in small up to enterprise
+grade environments. cdist is an alternative to other configuration
+management systems like bcfg2, chef, cfengine and puppet.
