@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-gui-0.0.0.2014.02.18.0
+DISTNAME=	jakllsch-meta-gui-0.0.0.2014.02.18.1
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -16,7 +16,8 @@ DEPENDS+=	sunclock-[0-9]*:../../time/sunclock
 DEPENDS+=	glclock-[0-9]*:../../time/glclock
 
 DEPENDS+=	pavucontrol-[0-9]*:../../audio/pavucontrol
-DEPENDS+=	firefox24-[0-9]*:../../www/firefox24
+DEPENDS+=	firefox31-[0-9]*:../../www/firefox31
+DEPENDS+=	firefox38-[0-9]*:../../www/firefox38
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	geeqie-[0-9]*:../../graphics/geeqie
 
@@ -28,7 +29,7 @@ DEPENDS+=	evince-[0-9]*:../../print/evince
 DEPENDS+=	epdfview-[0-9]*:../../print/epdfview
 DEPENDS+=	xpdf-[0-9]*:../../print/xpdf
 DEPENDS+=	djview4-[0-9]*:../../graphics/djview4
-DEPENDS+=	calibre-[0-9]*:../../misc/calibre
+#DEPENDS+=	calibre-[0-9]*:../../misc/calibre
 
 #DEPENDS+=	gpsdrive-[0-9]*:../../geography/gpsdrive
 
@@ -49,7 +50,7 @@ DEPENDS+=	povray-[0-9]*:../../graphics/povray
 
 DEPENDS+=	darktable-[0-9]*:../../graphics/darktable
 DEPENDS+=	gtk2-engines-[0-9]*:../../x11/gtk2-engines
-DEPENDS+=	openoffice3-[0-9]*:../../misc/openoffice3
+#DEPENDS+=	openoffice3-[0-9]*:../../misc/openoffice3
 DEPENDS+=	rdesktop-[0-9]*:../../net/rdesktop
 DEPENDS+=	tightvncviewer-[0-9]*:../../net/tightvncviewer
 DEPENDS+=	qemu-[0-9]*:../../emulators/qemu
