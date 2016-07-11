@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-misc-0.0.0.2014.10.15.0
+DISTNAME=	jakllsch-meta-misc-0.0.0.2016.06.04.0
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -47,7 +47,7 @@ DEPENDS+=	vbetool-[0-9]*:../../sysutils/vbetool
 DEPENDS+=	mktemp-[0-9]*:../../sysutils/mktemp
 DEPENDS+=	arena-[0-9]*:../../devel/arena
 DEPENDS+=	irssi-icb-[0-9]*:../../chat/irssi-icb
-DEPENDS+=	mutt-[0-9]*:../../mail/mutt-devel
+DEPENDS+=	mutt-[0-9]*:../../mail/mutt
 DEPENDS+=	msmtp-[0-9]*:../../mail/msmtp
 DEPENDS+=	cy2-gssapi-[0-9]*:../../security/cy2-gssapi
 DEPENDS+=	gnupg-[0-9]*:../../security/gnupg
