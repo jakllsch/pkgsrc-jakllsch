@@ -1,4 +1,4 @@
-DISTNAME=	jakllsch-meta-misc-0.0.0.2016.06.04.0
+DISTNAME=	jakllsch-meta-misc-0.0.0.2016.06.04.1
 #PKGREVISION=	0
 CATEGORIES=	meta-pkgs
 MASTER_SITES=	
@@ -111,5 +111,6 @@ DEPENDS+=	gpsd-[0-9]*:../../geography/gpsd
 DEPENDS+=	vim-[0-9]*:../../editors/vim
 
 DEPENDS+=	cdrtools-[0-9]*:../../sysutils/cdrtools
+DEPENDS+=	dvd+rw-tools-[0-9]*:../../sysutils/dvd+rw-tools
 
 .include "../../mk/bsd.pkg.mk"
