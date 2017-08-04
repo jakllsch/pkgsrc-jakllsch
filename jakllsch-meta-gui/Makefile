@@ -16,8 +16,8 @@ DEPENDS+=	sunclock-[0-9]*:../../time/sunclock
 DEPENDS+=	glclock-[0-9]*:../../time/glclock
 
 DEPENDS+=	pavucontrol-[0-9]*:../../audio/pavucontrol
-DEPENDS+=	firefox31-[0-9]*:../../www/firefox31
 DEPENDS+=	firefox38-[0-9]*:../../www/firefox38
+DEPENDS+=	firefox45-[0-9]*:../../www/firefox45
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	geeqie-[0-9]*:../../graphics/geeqie
 
@@ -44,7 +44,7 @@ DEPENDS+=	gimp-[0-9]*:../../graphics/gimp
 DEPENDS+=	cheese-[0-9]*:../../graphics/cheese
 DEPENDS+=	gucharmap-[0-9]*:../../fonts/gucharmap
 DEPENDS+=	nautilus-[0-9]*:../../sysutils/nautilus
-DEPENDS+=	ekiga-[0-9]*:../../net/ekiga
+#DEPENDS+=	ekiga-[0-9]*:../../net/ekiga
 DEPENDS+=	evolution-[0-9]*:../../mail/evolution
 DEPENDS+=	povray-[0-9]*:../../graphics/povray
 
