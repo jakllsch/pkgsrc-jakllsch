@@ -93,7 +93,7 @@ DEPENDS+=	gliv-[0-9]*:../../graphics/gliv
 DEPENDS+=	GraphicsMagick-[0-9]*:../../graphics/GraphicsMagick
 DEPENDS+=	netpbm-[0-9]*:../../graphics/netpbm
 DEPENDS+=	exiv2-[0-9]*:../../graphics/exiv2
-DEPENDS+=	teTeX-[0-9]*:../../print/teTeX
+DEPENDS+=	texlive-collection-latexrecommended-[0-9]*:../../meta-pkgs/texlive-collection-latexrecommended
 DEPENDS+=	graphviz-[0-9]*:../../graphics/graphviz
 DEPENDS+=	simh-[0-9]*:../../emulators/simh
 
