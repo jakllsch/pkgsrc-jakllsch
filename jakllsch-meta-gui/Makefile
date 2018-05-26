@@ -19,6 +19,7 @@ DEPENDS+=	pavucontrol-[0-9]*:../../audio/pavucontrol
 DEPENDS+=	firefox45-[0-9]*:../../www/firefox45
 DEPENDS+=	firefox52-[0-9]*:../../www/firefox52
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
+DEPENDS+=	mpv-[0-9]*:../../multimedia/mpv
 DEPENDS+=	geeqie-[0-9]*:../../graphics/geeqie
 
 DEPENDS+=	gliv-[0-9]*:../../graphics/gliv
