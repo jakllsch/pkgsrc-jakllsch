@@ -8,7 +8,7 @@ COMMENT=	personal metapackage - ARM toolchain
 META_PACKAGE=	yes
 LICENSE=	public-domain
 
-DEPENDS+=       cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc5
+DEPENDS+=       cross-arm-none-eabi-gcc-[0-9]*:../../cross/arm-none-eabi-gcc
 DEPENDS+=       cross-arm-none-eabi-gdb-[0-9]*:../../cross/arm-none-eabi-gdb
 
 .include "../../mk/bsd.pkg.mk"
