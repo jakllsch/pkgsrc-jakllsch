@@ -16,8 +16,8 @@ DEPENDS+=	sunclock-[0-9]*:../../time/sunclock
 DEPENDS+=	glclock-[0-9]*:../../time/glclock
 
 DEPENDS+=	pavucontrol-[0-9]*:../../audio/pavucontrol
-DEPENDS+=	firefox38-[0-9]*:../../www/firefox38
 DEPENDS+=	firefox45-[0-9]*:../../www/firefox45
+DEPENDS+=	firefox52-[0-9]*:../../www/firefox52
 DEPENDS+=	mplayer-[0-9]*:../../multimedia/mplayer
 DEPENDS+=	geeqie-[0-9]*:../../graphics/geeqie
 
